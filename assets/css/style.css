@@ -1328,7 +1328,7 @@ p {
         font-size: 16px; } }
 
 .single-about .about-icon img {
-  width: 120px; }
+  width: 240px; }
   @media (max-width: 767px) {
     .single-about .about-icon img {
       width: 100px; } }
