@@ -1,539 +1,1307 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="./css/hover.css">
-  <title>Anirban Edited Institute Of Engineering And Management</title>
+
+    <!--====== Required meta tags ======-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--====== Title ======-->
+    <title>IEEE IEM | Student Branch</title>
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.svg">
+
+    <!--====== Bootstrap css ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--====== Line Icons css ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+
+    <!--====== Magnific Popup css ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!--====== Slick css ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+
+    <!--====== Animate css ======-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!--====== Default css ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+
+    <!--====== Style css ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- ======= FONTAWESOME ======== -->
+    <script src="https://kit.fontawesome.com/55a073ab09.js" crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
-  <header class="text-gray-400 bg-gray-900 body-font">
-    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-      <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
-          stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-          viewBox="0 0 24 24">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg>
-        <span class="ml-3 text-xl">IEEE Institute Of Engineering And Management</span>
-      </a>
-      <nav class="md:ml-auto md:mr-auto flex flex-wrap items-centre text-base justify-centre">
-        <a
-          class="mr-5 hover:text-white">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Home</a>
-        <a class="mr-5 hover:text-white">About</a>
-        <a class="mr-5 hover:text-white">Branch Chapters</a>
-        <a class="mr-5 hover:text-white">Blog</a>
-        <a class="mr-5 hover:text-white">Events</a>
-        <a class="mr-5 hover:text-white">Team</a>
-        <a class="mr-5 hover:text-white">Contact</a>
-      </nav>
-      <button
-        class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-          <path d="M5 12h14M12 5l7 7-7 7"></path>
-        </svg>
-      </button>
-    </div>
-  </header>
-  <section class="text-gray-400 bg-gray-900 body-font">
-    <div class="container mx-auto flex items-center justify-center flex-col">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></script>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-      <style>
-        #slider {
-          position: relative;
-          width: 1520px;
-          height: 630px;
 
-          overflow: hidden;
-          box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
-        }
+    <!--====== PRELOADER PART START ======-->
 
-        #slider ul {
-          position: relative;
-          list-style: none;
-          height: 100%;
-          width: 10000%;
-          padding: 0;
-          margin: 0;
-          transition: all 750ms ease;
-          left: 0;
-        }
-
-        #slider ul li {
-          position: relative;
-          height: 100%;
-
-          float: left;
-        }
-
-        #slider ul li img {
-          width: 1520px;
-          height: 630px;
-        }
-
-        #slider #prev,
-        #slider #next {
-          width: 50px;
-          line-height: 50px;
-          border-radius: 50%;
-          font-size: 2rem;
-          text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-          text-align: center;
-          color: white;
-          text-decoration: none;
-          position: absolute;
-          top: 50%;
-          transform: translateY(-50%);
-          transition: all 150ms ease;
-        }
-
-        #slider #prev:hover,
-        #slider #next:hover {
-          background-color: rgba(0, 0, 0, 0.5);
-          text-shadow: 0;
-        }
-
-        #slider #prev {
-          left: 6px;
-        }
-
-        #slider #next {
-          right: 6px;
-        }
-      </style>
-      </head>
-
-      <body>
-        <div id="slider">
-          <ul id="slideWrap">
-            <li><img src="./images/slideshow/trinoyon-logo-reveal-website.png" alt=""></li>
-            <li><img src="./images/slideshow/Tech Talks.png" alt=""></li>
-            <li><img src="./images/slideshow/Join Us!.png" alt=""></li>
-
-          </ul>
-          <a id="prev" href="#">&#8810;</a>
-          <a id="next" href="#">&#8811;</a>
-        </div>
-
-
-        <script>
-          var responsiveSlider = function () {
-
-            var slider = document.getElementById("slider");
-            var sliderWidth = slider.offsetWidth;
-            var slideList = document.getElementById("slideWrap");
-            var count = 1;
-            var items = slideList.querySelectorAll("li").length;
-            var prev = document.getElementById("prev");
-            var next = document.getElementById("next");
-
-            window.addEventListener('resize', function () {
-              sliderWidth = slider.offsetWidth;
-            });
-
-            var prevSlide = function () {
-              if (count > 1) {
-                count = count - 2;
-                slideList.style.left = "-" + count * sliderWidth + "px";
-                count++;
-              }
-              else if (count = 1) {
-                count = items - 1;
-                slideList.style.left = "-" + count * sliderWidth + "px";
-                count++;
-              }
-            };
-
-            var nextSlide = function () {
-              if (count < items) {
-                slideList.style.left = "-" + count * sliderWidth + "px";
-                count++;
-              }
-              else if (count = items) {
-                slideList.style.left = "0px";
-                count = 1;
-              }
-            };
-
-            next.addEventListener("click", function () {
-              nextSlide();
-            });
-
-            prev.addEventListener("click", function () {
-              prevSlide();
-            });
-
-            setInterval(function () {
-              nextSlide()
-            }, 5000);
-
-          };
-
-          window.onload = function () {
-            responsiveSlider();
-          }
-        </script>&emsp;&emsp;&emsp;&emsp;
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">About Us</h1>
-        <p class="leading-relaxed mb-8">IEM</p>
-        <div class="flex justify-center">
-          <button
-            class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">More
-            About IEEE</button>
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+    <!--====== PRELOADER PART ENDS ======-->
+
+    <!--====== NAVBAR PART START ======-->
+
+    <section class="header-area">
+        <div class="navbar-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="#">
+                                <img src="assets/images/logo.png" height="50px" alt="Logo">
+                            </a>
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarEight" aria-controls="navbarEight" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="page-scroll" href="#home">HOME</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#about">ABOUT</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#portfolio">EVENTS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#pricing">TEAM</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#client">PARTNERS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#footer">CONTACT</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="navbar-btn d-none mt-15 d-lg-inline-block">
+                                <a id="nav-toggler-web" class="menu-bar" href="#side-menu-right"><i
+                                        class="lni-menu"></i></a>
+                            </div>
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- navbar area -->
+
+        <div id="home" class="slider-area">
+            <div class="bd-example">
+                <div id="carouselOne" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselOne" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselOne" data-slide-to="1"></li>
+                        <li data-target="#carouselOne" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item bg_cover active"
+                            style="background-image: url(assets/images/TechTalks.png)">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-7 col-sm-10">
+
+                                        </div>
+                                    </div> <!-- row -->
+                                </div> <!-- container -->
+                            </div> <!-- carousel caption -->
+                        </div> <!-- carousel-item -->
+
+                        <div class="carousel-item bg_cover" style="background-image: url(assets/images/trinoyon.png)">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-7 col-sm-10">
+
+                                        </div>
+                                    </div> <!-- row -->
+                                </div> <!-- container -->
+                            </div> <!-- carousel caption -->
+                        </div> <!-- carousel-item -->
+
+                        <div class="carousel-item bg_cover" style="background-image: url(assets/images/JoinUs!.png)">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-xl-6 col-lg-7 col-sm-10">
+
+                                        </div>
+                                    </div> <!-- row -->
+                                </div> <!-- container -->
+                            </div> <!-- carousel caption -->
+                        </div> <!-- carousel-item -->
+                    </div> <!-- carousel-inner -->
+
+                    <a class="carousel-control-prev" href="#carouselOne" role="button" data-slide="prev">
+                        <i class="lni-arrow-left-circle"></i>
+                    </a>
+
+                    <a class="carousel-control-next" href="#carouselOne" role="button" data-slide="next">
+                        <i class="lni-arrow-right-circle"></i>
+                    </a>
+                </div> <!-- carousel -->
+            </div> <!-- bd-example -->
+        </div>
+
+    </section>
+
+    <!--====== NAVBAR PART ENDS ======-->
+
+    <!--====== SAIDEBAR PART START ======-->
+
+    <div class="sidebar-right">
+        <div class="sidebar-close">
+            <a class="close" href="#close"><i class="lni-close"></i></a>
+        </div>
+        <div class="sidebar-content">
+            <div class="sidebar-logo text-center">
+                <a href="#"><img src="assets/images/logo.png" alt="Logo"></a>
+            </div> <!-- logo -->
+            <div class="sidebar-menu">
+                <ul>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#portfolio">EVENTS</a></li>
+                    <li><a href="#pricing">TEAM</a></li>
+                    <li><a href="#client">PARTNERS</a></li>
+                    <li><a href="#footer">CONTACT</a></li>
+                </ul>
+            </div> <!-- menu -->
+            <div class="sidebar-social d-flex align-items-center justify-content-center">
+                <span>FOLLOW US</span>
+                <ul>
+                    <li><a href="#"><i class="lni-twitter-original"></i></a></li>
+                    <li><a href="#"><i class="lni-facebook-filled"></i></a></li>
+                </ul>
+            </div> <!-- sidebar social -->
+        </div> <!-- content -->
     </div>
-  </section>
-  <section class="text-gray-400 bg-gray-900 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-col text-center w-full mb-20">
-        <h1 class="text-2xl font-medium title-font mb-4 text-white">EVENTS</h1>
-        <p class="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
-      </div>
-      <div class="flex flex-wrap -m-4">
-        <div class="p-3 lg:w-1/3 lg:mb-0 mb-6 p-4">
-          <div class="h-full text-center">
-            <div class="geeks">
-              <img alt="testimonial" class="flex-shrink-0 rounded-lg w-270 h-440 object-cover object-center mb-4"
-                src="./images/events/trinoyon_Bornomala.jpeg" alt="geeks Image" />
+    <div class="overlay-right"></div>
+
+    <!--====== SAIDEBAR PART ENDS ======-->
+
+    <!--====== ABOUT PART START ======-->
+    <section id="about" class="about-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-8">
+                    <div class="about-image text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-offset="100">
+                        <img src="assets/images/logo.png" alt="services">
+                    </div>
+                    <div class="section-title text-center mt-30 pb-40">
+                        <h4 class="title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s">About IEEE IEM
+                            <br> Student Branch
+                        </h4>
+                        <p class="text wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">Lorem, ipsum dolor sit
+                            amet consectetur adipisicing elit. Provident at qui a ratione.</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s"
+                        data-wow-delay="1.2s">
+                        <div class="about-icon">
+                            <img src="assets/images/icon-1.png" alt="Icon">
+                        </div>
+                        <div class="about-content media-body">
+                            <h4 class="about-title">About Title1</h4>
+                            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident at qui a
+                                ratione.</p>
+                        </div>
+                    </div> <!-- single about -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s"
+                        data-wow-delay="1.4s">
+                        <div class="about-icon">
+                            <img src="assets/images/icon-2.png" alt="Icon">
+                        </div>
+                        <div class="about-content media-body">
+                            <h4 class="about-title">About Title 2</h4>
+                            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident at qui a
+                                ratione</p>
+                        </div>
+                    </div> <!-- single about -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s"
+                        data-wow-delay="1.6s">
+                        <div class="about-icon">
+                            <img src="assets/images/icon-3.png" alt="Icon">
+                        </div>
+                        <div class="about-content media-body">
+                            <h4 class="about-title">About Title 3</h4>
+                            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident at qui a
+                                ratione</p>
+                        </div>
+                    </div> <!-- single about -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s"
+                        data-wow-delay="1.8s">
+                        <div class="about-icon">
+                            <img src="assets/images/icon-4.png" alt="Icon">
+                        </div>
+                        <div class="about-content media-body">
+                            <h4 class="about-title">About Title 4</h4>
+                            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident at qui a
+                                ratione.</p>
+                        </div>
+                    </div> <!-- single about -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+
+    <!--====== ABOUT PART ENDS ======-->
+
+    <!--====== Counter PART STARTS ======-->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <div class="card w-60 wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="card-body counter">
+                        <i class="lni lni-money-protection display-4 text-primary"></i>
+                        <span class="count display-4 text-primary" data-target='7000'>0</span>
+                        <p class="card-text">Wonders we keep counting regularly</p>
+                    </div>
+                </div>
             </div>
-            <p class="leading-relaxed">BORNOMALA</p>
-            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-          </div>
-        </div>
-        <div class="p-3 lg:w-1/3 lg:mb-0 mb-6 p-4">
-          <div class="h-full text-center">
-            <div class="geeks">
-              <img alt="testimonial" class="flex-shrink-0 rounded-lg w-270 h-440 object-cover object-center mb-4"
-                src="./images/events/trinoyon_chitrakothon.jpeg" alt="geeks Image" />
+            <div class="col-lg-4 col-sm-12">
+                <div class="card w-60 wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="card-body counter">
+                        <i class="lni lni-heart display-4 text-danger"></i>
+                        <span class="count display-4 text-danger" data-target='6000'>0</span>
+                        <p class="card-text">Wonders we keep counting regularly</p>
+                    </div>
+                </div>
             </div>
-            <p class="leading-relaxed">CHITRAKOTHON</p>
-            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-          </div>
-        </div>
-        <div class="p-3 lg:w-1/3 lg:mb-0 mb-6 p-4">
-          <div class="h-full text-center">
-            <div class="geeks">
-              <img alt="testimonial" class="flex-shrink-0 rounded-lg w-270 h-440 object-cover object-center mb-4"
-                src="./images/events/trinoyon_Choturongo.jpeg" alt="geeks Image" />
+            <div class="col-lg-4 col-sm-12">
+                <div class="card w-60 wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="card-body counter">
+                        <i class="lni lni-users display-4 text-primary"></i>
+                        <span class="count display-4 text-primary" data-target='9000'>0</span>
+                        <p class="card-text">Wonders we keep counting regularly</p>
+                    </div>
+                </div>
             </div>
-            <p class="leading-relaxed">CHOTURONGO</p>
-            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
-          </div>
         </div>
-      </div>
     </div>
-  </section>
-  <section class="text-gray-400 bg-gray-900 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-col text-center w-full mb-20">
-        <h1 class="text-2xl font-medium title-font mb-4 text-white">OUR TEAM</h1>
-        <p class="lg:w-2/3 mx-auto leading-relaxed text-base"></p>
-      </div>
-      <div class="flex flex-wrap -m-4">
-        <div class="p-4 lg:w-1/4 md:w-1/2">
-          <div class="h-full flex flex-col items-center text-center">
-            <div class="geeks">
-              <img alt="team" class="flex-shrink-0 rounded-lg w-290 h-245 object-cover object-center mb-4"
-                src="./images/members/corecommittee/maam_counclr.jpeg" alt="geeks Image" />
+    <!--====== Counter PART ENDS ======-->
+
+
+    <!--====== portfolio PART START ======-->
+
+    <section id="portfolio" class="portfolio-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center pb-20">
+                        <h3 class="title">Events We Orgainzed</h3>
+                        <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, beatae. Sequi
+                            doloremque pariatur in. Iure, totam. Natus similique sed, explicabo hic quidem nostrum esse
+                            rem, veritatis doloribus cupiditate fugiat! Repellendus.</p>
+                    </div> <!-- row -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="portfolio-menu pt-30 text-center">
+                        <ul>
+                            <li data-filter="*" class="active">EVENT 1</li>
+                            <li data-filter=".branding-3">EVENT 2</li>
+                            <li data-filter=".marketing-3">EVENT 3</li>
+                            <li data-filter=".planning-3">EVENT 4</li>
+                            <li data-filter=".research-3">EVENT 5</li>
+                            <a href="./pastEvents.html" class="btn"> SEE MORE &gt;&gt; </a>
+                        </ul>
+                    </div> <!-- portfolio menu -->
+                </div>
+            </div> <!-- row -->
+            <div class="row grid">
+                <div class="col-lg-4 col-sm-6 branding-3 planning-3">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio-1.png" alt="">
+                            <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                                <div class="portfolio-content">
+                                    <div class="portfolio-icon">
+                                        <a class="image-popup" href="assets/images/portfolio-1.png"><i
+                                                class="lni-zoom-in"></i></a>
+                                    </div>
+                                    <div class="portfolio-icon">
+                                        <a href="#"><i class="lni-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Image Title</a></h4>
+                            <p class="text">Short description for the evnets which look something more than Awesome!</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+                <div class="col-lg-4 col-sm-6 marketing-3 research-3">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio-2.png" alt="">
+                            <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                                <div class="portfolio-content">
+                                    <div class="portfolio-icon">
+                                        <a class="image-popup" href="assets/images/portfolio-2.png"><i
+                                                class="lni-zoom-in"></i></a>
+                                    </div>
+                                    <div class="portfolio-icon">
+                                        <a href="#"><i class="lni-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Image Title</a></h4>
+                            <p class="text">Short description for the evnets which look something more than Awesome!</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+                <div class="col-lg-4 col-sm-6 branding-3 marketing-3">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio-3.png" alt="">
+                            <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                                <div class="portfolio-content">
+                                    <div class="portfolio-icon">
+                                        <a class="image-popup" href="assets/images/portfolio-3.png"><i
+                                                class="lni-zoom-in"></i></a>
+                                    </div>
+                                    <div class="portfolio-icon">
+                                        <a href="#"><i class="lni-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Image Title</a></h4>
+                            <p class="text">Short description for the evnets which look something more than Awesome!</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+                <div class="col-lg-4 col-sm-6 planning-3 research-3">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio-4.png" alt="">
+                            <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                                <div class="portfolio-content">
+                                    <div class="portfolio-icon">
+                                        <a class="image-popup" href="assets/images/portfolio-4.png"><i
+                                                class="lni-zoom-in"></i></a>
+                                    </div>
+                                    <div class="portfolio-icon">
+                                        <a href="#"><i class="lni-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Image Title</a></h4>
+                            <p class="text">Short description for the evnets which look something more than Awesome!</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+                <div class="col-lg-4 col-sm-6 marketing-3">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.4s">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio-5.png" alt="">
+                            <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                                <div class="portfolio-content">
+                                    <div class="portfolio-icon">
+                                        <a class="image-popup" href="assets/images/portfolio-5.png"><i
+                                                class="lni-zoom-in"></i></a>
+                                    </div>
+                                    <div class="portfolio-icon">
+                                        <a href="#"><i class="lni-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Image Title</a></h4>
+                            <p class="text">Short description for the evnets which look something more than Awesome!</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+                <div class="col-lg-4 col-sm-6 planning-3">
+                    <div class="single-portfolio mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s">
+                        <div class="portfolio-image">
+                            <img src="assets/images/portfolio-6.png" alt="">
+                            <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                                <div class="portfolio-content">
+                                    <div class="portfolio-icon">
+                                        <a class="image-popup" href="assets/images/portfolio-6.png"><i
+                                                class="lni-zoom-in"></i></a>
+                                    </div>
+                                    <div class="portfolio-icon">
+                                        <a href="#"><i class="lni-link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-text">
+                            <h4 class="portfolio-title"><a href="#">Image Title</a></h4>
+                            <p class="text">Short description for the evnets which look something more than Awesome!</p>
+                        </div>
+                    </div> <!-- single portfolio -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== portfolio PART ENDS ======-->
+
+    <!-- ===== MEMBERS SLIDESHOW STARTS -->
+
+    <section class="pt-5 pb-5 pricing-area">
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center pb-20">
+                        <h3 class="title">Our Team</h3>
+                        <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae molestias quis
+                            ipsa dolorum aspernatur rem nihil </p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row mt-5">
+                <div class="col-6">
+                    <h3 class="mb-3">Faculty Head</h3>
+                </div>
+                <div class="col-12">
+                    <div id="" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="w-full">
-              <h2 class="title-font font-medium text-lg text-white">PROF SENJUTI KHANRA</h2>
-              <h3 class="text-gray-500 mb-3">BRANCH COUNSELLOR</h3>
-              <p class="mb-4"></p>
-              <span class="inline-flex">
-                <a class="text-gray-700">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-5 h-5" viewBox="0 0 24 24">
-                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                  </svg>
-                </a>
-                <a class="ml-2 text-gray-700">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-5 h-5" viewBox="0 0 24 24">
-                    <path
-                      d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
-                    </path>
-                  </svg>
-                </a>
-                <a class="ml-2 text-gray-700">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-5 h-5" viewBox="0 0 24 24">
-                    <path
-                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                    </path>
-                  </svg>
-                </a>
-              </span>
+        </div>
+
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-6">
+                    <h3 class="mb-3">Executive Committee </h3>
+                </div>
+                <div class="col-6 text-right">
+                    <a class="btn btn-primary mb-3 mr-1" href="#CoreSlideShow" role="button" data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn btn-primary mb-3 " href="#CoreSlideShow" role="button" data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-12">
+                    <div id="CoreSlideShow" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="p-4 lg:w-1/4 md:w-1/2">
-          <div class="h-full flex flex-col items-center text-center">
-            <div class="geeks">
-              <img alt="team" class="flex-shrink-0 rounded-lg w-290 h-245 object-cover object-center mb-4"
-                src="./images/members/corecommittee/Sumedha_chair.jpeg" alt="geeks Image" />
+
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-6">
+                    <h3 class="mb-3">Core Committee </h3>
+                </div>
+                <div class="col-6 text-right">
+                    <a class="btn btn-primary mb-3 mr-1" href="#CoreSlideShow" role="button" data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn btn-primary mb-3 " href="#CoreSlideShow" role="button" data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-12">
+                    <div id="CoreSlideShow" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="w-full">
-              <h2 class="title-font font-medium text-lg text-white">SUMEDHA GHOSH</h2>
-              <h3 class="text-gray-500 mb-3">CHAIR PERSON</h3>
-              <p class="mb-4"></p>
-              <span class="inline-flex">
-                <a class="text-gray-700">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-5 h-5" viewBox="0 0 24 24">
-                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                  </svg>
-                </a>
-                <a class="ml-2 text-gray-700">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-5 h-5" viewBox="0 0 24 24">
-                    <path
-                      d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
-                    </path>
-                  </svg>
-                </a>
-                <a class="ml-2 text-gray-700">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-5 h-5" viewBox="0 0 24 24">
-                    <path
-                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                    </path>
-                  </svg>
-                </a>
-              </span>
+        </div>
+
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-6">
+                    <h3 class="mb-3">Web Developers</h3>
+                </div>
+                <div class="col-12">
+                    <div id="" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="p-4 lg:w-1/4 md:w-1/2">
-          <div class="h-full flex flex-col items-center text-center">
-            <div class="geeks">
-              <img alt="team" class="flex-shrink-0 rounded-lg w-290 h-245 object-cover object-center mb-4"
-                src="./images/members/corecommittee/Sanhita_vchair.jpeg" alt="geeks Image" />
+
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-6">
+                    <h3 class="mb-3">Members</h3>
+                </div>
+                <div class="col-6 text-right">
+                    <a class="btn btn-primary mb-3 mr-1" href="#membersSlideShow" role="button" data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn btn-primary mb-3 " href="#membersSlideShow" role="button" data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-12">
+                    <div id="membersSlideShow" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="w-full">
-              <h2 class="title-font font-medium text-lg text-white">SANHITA KOLEY</h2>
-              <h3 class="text-gray-500 mb-3">VICE CHAIR PERSON</h3>
-              <p class="mb-4"></p>
-              <span class="inline-flex">
-                <a class="text-gray-700">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-5 h-5" viewBox="0 0 24 24">
-                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                  </svg>
-                </a>
-                <a class="ml-2 text-gray-700">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-5 h-5" viewBox="0 0 24 24">
-                    <path
-                      d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
-                    </path>
-                  </svg>
-                </a>
-                <a class="ml-2 text-gray-700">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-5 h-5" viewBox="0 0 24 24">
-                    <path
-                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                    </path>
-                  </svg>
-                </a>
-              </span>
+        </div>
+
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-6">
+                    <h3 class="mb-3">Past Executives</h3>
+                </div>
+                <div class="col-6 text-right">
+                    <a class="btn btn-primary mb-3 mr-1" href="#pastExecSlideShow" role="button" data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn btn-primary mb-3 " href="#pastExecSlideShow" role="button" data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-12">
+                    <div id="pastExecSlideShow" class="carousel slide" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="">
+                                            <div class='member-dp mt-2'><img class="img-fluid rounded-circle"
+                                                    alt="100%x280" src="./assets/images/wman.svg"></div>
+                                            <div class="card-body text-center">
+                                                <h4 class="card-title">Team Member</h4>
+                                                <p class="card-text">Member Role</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="p-4 lg:w-1/4 md:w-1/2">
-          <div class="h-full flex flex-col items-center text-center">
-            <div class="geeks">
-              <img alt="team" class="flex-shrink-0 rounded-lg w-290 h-245 object-cover object-center mb-4"
-                src="./images/members/corecommittee/Brajit_sec.jpeg" alt="geeks Image" />
-            </div>
-            <div class="w-full">
-              <h2 class="title-font font-medium text-lg text-white">BRAJIT PAUL</h2>
-              <h3 class="text-gray-500 mb-3">SECRETARY</h3>
-              <p class="mb-4"></p>
-              <span class="inline-flex">
-                <a class="text-gray-700">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-5 h-5" viewBox="0 0 24 24">
-                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                  </svg>
-                </a>
-                <a class="ml-2 text-gray-700">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-5 h-5" viewBox="0 0 24 24">
-                    <path
-                      d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
-                    </path>
-                  </svg>
-                </a>
-                <a class="ml-2 text-gray-700">
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    class="w-5 h-5" viewBox="0 0 24 24">
-                    <path
-                      d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
-                    </path>
-                  </svg>
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="text-gray-400 body-font bg-gray-900">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-col text-center w-full mb-20">
-        <h1 class="text-2xl font-medium title-font mb-4 text-gray-400">Our Collaborators</h1>
+    </section>
 
-      </div>
-      <div class="py-18 flex items-center justify-center bg-gray-900 space-x-10">
-        <div class="p-4 lg:w-1/5 md:w-1/2">
-          <img alt="collaborator" class="flex-shrink-0 rounded-lg w-1080 h-600 mb-4"
-            src="./images/collaborators/20210115_224737.png">
-        </div>
+    <!-- ===== MEMBERS SLIDESHOW ENDS ====== -->
 
-        <div class="p-4 lg:w-1/5 md:w-1/2">
-          <img alt="collaborator" class="flex-shrink-0 rounded-lg w-1080 h-600 mb-4"
-            src="./images/collaborators/AAK.jpeg">
-        </div>
+    <!--====== CLIENT LOGO PART START ======-->
 
-        <div class="p-4 lg:w-1/5 md:w-1/2">
-          <img alt="collaborator" class="flex-shrink-0 rounded-lg w-1080 h-600 mb-4"
-            src="./images/collaborators/Cashfree logo.png">
-        </div>
+    <section id="client" class="client-logo-area">
 
-        <div class="p-4 lg:w-1/5 md:w-1/2">
-          <img alt="collaborator" class="flex-shrink-0 rounded-lg w-1080 h-600 mb-4"
-            src="./images/collaborators/etcases logo.png">
-        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center pb-20">
+                        <h3 class="title">Our Partners</h3>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row client-active">
+                <div class="col-lg-3">
+                    <div class="single-client text-center">
+                        <img src="assets/images/client_logo_01.png" alt="Logo">
+                    </div> <!-- single client -->
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-client text-center">
+                        <img src="assets/images/client_logo_02.png" alt="Logo">
+                    </div> <!-- single client -->
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-client text-center">
+                        <img src="assets/images/client_logo_03.png" alt="Logo">
+                    </div> <!-- single client -->
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-client text-center">
+                        <img src="assets/images/client_logo_04.png" alt="Logo">
+                    </div> <!-- single client -->
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-client text-center">
+                        <img src="assets/images/client_logo_05.png" alt="Logo">
+                    </div> <!-- single client -->
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-client text-center">
+                        <img src="assets/images/client_logo_06.png" alt="Logo">
+                    </div> <!-- single client -->
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-client text-center">
+                        <img src="assets/images/client_logo_07.png" alt="Logo">
+                    </div> <!-- single client -->
+                </div>
+                <div class="col-lg-3">
+                    <div class="single-client text-center">
+                        <img src="assets/images/client_logo_08.png" alt="Logo">
+                    </div> <!-- single client -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
 
-        <div class="p-4 lg:w-1/5 md:w-1/2">
-          <img alt="collaborator" class="flex-shrink-0 rounded-lg w-1080 h-600 mb-4"
-            src="./images/collaborators/IEEE Collabratec logo.png">
-        </div>
+    <!--====== CLIENT LOGO PART ENDS ======-->
 
-      </div>
-      <div class="py-5 flex items-center justify-center bg-gray-900 space-x-10">
-        <div class="p-4 lg:w-1/5 md:w-1/2">
-          <img alt="collaborator" class="flex-shrink-0 rounded-lg w-1080 h-600 mb-4"
-            src="./images/collaborators/IEEE CS logo.png">
-        </div>
-        <div class="p-4 lg:w-1/5 md:w-1/2">
-          <img alt="collaborator" class="flex-shrink-0 rounded-lg w-1080 h-600 mb-4"
-            src="./images/collaborators/IEEE Students logo.png">
-        </div>
-        <div class="p-4 lg:w-1/5 md:w-1/2">
-          <img alt="collaborator" class="flex-shrink-0 rounded-lg w-1080 h-600 mb-4"
-            src="./images/collaborators/LKT.jpeg">
-        </div>
+    <!--====== FOOTER FOUR PART START ======-->
 
-        <div class="p-4 lg:w-1/5 md:w-1/2">
-          <img alt="collaborator" class="flex-shrink-0 rounded-lg w-1080 h-600 mb-4"
-            src="./images/collaborators/Saytrees logo.png">
-        </div>
+    <footer id="footer" class="footer-area pricing-area">
+        <div class="footer-widget">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-link">
+                            <h6 class="footer-title">Contact Us</h6>
+                            <ul>
+                                <li><a href="#">Email</a></li>
+                                <li><a href="#">Whatsapp</a></li>
+                                <li><a href="#">Social Media</a></li>
+                            </ul>
+                        </div> <!-- footer link -->
+                    </div>
+                    <div class="col-lg-9 col-sm-12">
+                        <iframe id="gmap"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13129.138825675716!2d88.42915905440138!3d22.57012860047784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275a90e2f3b89%3A0xd13b26d16803ab9b!2sIEM%2C%20Management%20House!5e0!3m2!1sen!2sin!4v1635278961661!5m2!1sen!2sin"
+                            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer widget -->
 
-        <div class="p-4 lg:w-1/5 md:w-1/2">
-          <img alt="collaborator" class="flex-shrink-0 rounded-lg w-1080 h-600 mb-4"
-            src="./images/collaborators/WhatsApp Image 2021-10-01 at 1.40.16 PM.jpeg">
-        </div>
-      </div>
-    </div>
-    </div>
-  </section>
-  <footer class="text-gray-600 body-font">
-    <div
-      class="container px-1 py-2 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-      <div class="w-50 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left ">
-        <div class="figure">
-          <a
-            href="https://www.google.co.in/maps/place/Institute+of+Engineering+%26+Management/@22.5726337,88.4220479,14.22z/data=!4m5!3m4!1s0x3a0275bb4df8a60d:0x905231d91b918a3!8m2!3d22.574308!4d88.4337457">
-            <img class="image-main" src="./images/1200px-Institute_of_Engineering_and_Management_01.jpg?w=360"
-              srcset="./images/1200px-Institute_of_Engineering_and_Management_01.jpg?w=720 2x" alt="Demo image 1">
-            <img class="image-hover" src="./images/WhatsApp Image 2021-10-03 at 4.14.33 PM.jpeg?w=360"
-              srcset="./images/WhatsApp Image 2021-10-03 at 4.14.33 PM.jpeg?w=720 2x" alt="Demo image 2">
-          </a>
-        </div>
-      </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="copyright text-center text-lg-left mt-10">
+                            <p class="text">Designed and Developed by <a style="color: #5883e3 " rel="nofollow"
+                                    href="https://www.linkedin.com/in/anirban-bhattacharjee-9227591b6/">Anirban
+                                    Bhattacharjee</a></p>
+                        </div> <!--  copyright -->
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="footer-logo text-center mt-10">
+                            <a href="index.html"><img src="assets/images/logo.png" height='70px' alt="Logo"></a>
+                        </div> <!-- footer logo -->
+                    </div>
+                    <div class="col-lg-5">
+                        <ul class="social text-center text-lg-right mt-10">
+                            <li><a href="https://facebook.com/"><i class="lni-facebook-filled"></i></a></li>
+                            <li><a href="https://twitter.com/"><i class="lni-twitter-original"></i></a></li>
+                            <li><a href="https://instagram.com/"><i class="lni-instagram-original"></i></a></li>
+                            <li><a href="https://linkedin.com/"><i class="lni-linkedin-original"></i></a></li>
+                        </ul> <!-- social -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer copyright -->
+    </footer>
 
-      <div class="flex-col flex flex-column md:pl-40 -mb-20 md:mt-0 mt-10 justify-content-centre ">
+    <!--====== FOOTER FOUR PART ENDS ======-->
 
-        <div class="lg:w-1/3 md:w-1/2 w-full px-20 py-10">
-          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CONTACTS</h2>
-          <nav class="list-none mb-10">
-            <li>
-              <a class="text-gray-600 hover:text-gray-800">Email:ieeeiemsb@iemcal.com</a>
-            </li>
-            <li>
-              <a class="text-gray-600 hover:text-gray-800">WhatsApp:+919564274527</a>
-            </li>
-            <li>
-              <a class="text-gray-600 hover:text-gray-800">Phone:+919564274527</a>
-            </li>
-            <li>
-              <a class="text-gray-600 hover:text-gray-800">Address:Salt_Lake Electronics_Complex_Y_12
-                Street_Number_18
-                EP_Block_Sector_V_Bidhannagar
-                Kolkata_West_Bengal
-                700091</a>
-            </li>
-          </nav>
-        </div>
-      </div>
-    </div>
-    <div class="bg-gray-100">
-      <div class="container mx-auto py-3 px-16 flex flex-wrap flex-col sm:flex-row">
-        <p class="text-gray-500 text-sm text-center sm:text-left">© 2021 IEM IEEE —
-          <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1"
-            target="_blank">Institute Of Engineering and Management</a>
-        </p>
-        <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-          <a class="text-gray-500">
-            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
-              viewBox="0 0 24 24">
-              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-            </svg>
-          </a>
-          <a class="ml-3 text-gray-500">
-            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
-              viewBox="0 0 24 24">
-              <path
-                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
-              </path>
-            </svg>
-          </a>
-          <a class="ml-3 text-gray-500">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              class="w-5 h-5" viewBox="0 0 24 24">
-              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-            </svg>
-          </a>
-          <a class="ml-3 text-gray-500">
-            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-              stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
-              <path stroke="none"
-                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
-              <circle cx="4" cy="4" r="2" stroke="none"></circle>
-            </svg>
-          </a>
-        </span>
-      </div>
-    </div>
-    <h1>
-      Anirban check commit
-    </h1>
-  </footer>
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni-chevron-up" id='up-icon'></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->
+
+    <!--====== PART START ======-->
+
+
+
+    <!--====== PART ENDS ======-->
+
+
+
+
+
+
+
+
+
+
+    <!--====== jquery js ======-->
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--====== Isotope js ======-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+
+    <!--====== Images Loaded js ======-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Scrolling js ======-->
+    <script src="assets/js/scrolling-nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+
+    <!--====== wow js ======-->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/counter.js"></script>
+
 </body>
 
 </html>
