@@ -242,12 +242,12 @@ sup {
 }
 
 a {
-  color: #ffc800;
+  color: #0d6efd;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #cca000;
+  color: #0dcaf0;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4221,6 +4221,10 @@ textarea.form-control-lg {
 .btn-group-vertical>.btn-group:not(:first-child)>.btn {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+nav {
+  max-width: 100vw;
 }
 
 .nav {
@@ -12003,6 +12007,13 @@ p {
   font-weight: 700;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
+
+}
+
+@media(min-width: 768px) {
+  #mainNav .navbar-brand {
+    padding-left: 100px;
+  }
 }
 
 #mainNav .navbar-brand img {
@@ -12018,6 +12029,16 @@ p {
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #0dcaf0;
+}
+
+@media(max-width: 768px) {
+  #parent-container {
+    margin-top: 70px;
+  }
+
+  header {
+    width: 100vw;
+  }
 }
 
 @media (min-width: 992px) {
@@ -12211,6 +12232,11 @@ header.masthead .masthead-heading {
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
+
+/* *****************************
+          schedule css
+*********************************
+*/
 
 .timeline {
   position: relative;
@@ -12575,17 +12601,20 @@ section#contact form#contactForm :-ms-input-placeholder {
   transform: translate3d(0, 0, 0) translateY(25px);
   position: relative;
   z-index: 1;
-  text-align: center;
+  /* text-align: center; */
   margin: 0 1.618em;
   top: 55%;
   opacity: 0;
+}
+.tl-item:hover .tl-year{
+  display:none;
 }
 
 .tl-content h1 {
   font-family: "Pathway Gothic One", Helvetica Neue, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: #1779cf;
-  font-size: 1.44rem;
+  /* font-size: 1.44rem; */
   font-weight: normal;
 }
 
@@ -12617,6 +12646,73 @@ section#contact form#contactForm :-ms-input-placeholder {
   transition: filter 0.5s ease;
   filter: grayscale(100%);
 }
+
+@media only screen and (max-width: 768px) {
+  #timeline {
+    height: fit-content;
+    flex-direction: column
+  }
+
+  .tl-item:hover {
+    width: 100% !important;
+  }
+
+  #timeline:hover .tl-item {
+    width: 100%;
+  }
+
+  .tl-item {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    color: #fff;
+    transition: width 0.5s ease;
+  }
+
+  .tl-content {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 65%);
+    transform: none;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin: 0 1.618em;
+    top: 13%;
+    line-height: 1rem;
+    /* font-size: 1.3rem; */
+    opacity: 1;
+  }
+
+  .tl-content h1 {
+    font-size: 1rem;
+  }
+
+  .tl-year {
+    top: 5%;
+  }
+
+}
+
+.mobile-btn{
+  width: 100vw;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+@media (min-width: 768px){
+  .mobile-btn{
+    display:none;
+  }
+}
+
+@media (max-width: 768px){
+  .hero-btn{
+    display:none;
+  }
+}
+
+
 
 .hero-btn {
   position: relative;
@@ -12682,10 +12778,12 @@ h2 {
   background: linear-gradient(to left, #FFD200, #F7971E);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.logo-enlarger{
+
+.logo-enlarger {
   transform: scale(1.5);
 }
-.logo-shirnker{
+
+.logo-shirnker {
   transform: scale(0.8);
 }
 
@@ -12707,6 +12805,15 @@ h2 {
   }
 }
 
+@media(max-width: 768px) {
+  .hashtag {
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+  }
+}
+
 .reg-card {
   color: white;
   text-align: center;
@@ -12714,6 +12821,12 @@ h2 {
   border-radius: 20px;
   padding: 10px 20px;
   transition: 0.5s;
+}
+
+@media(max-width:768px){
+  .reg-card{
+    margin: 5px 0px;
+  }
 }
 
 .reg-card:hover {
@@ -12725,27 +12838,29 @@ h2 {
   font-size: 2rem;
 }
 
-#gmap{
+#gmap {
   width: 60vw;
   height: 22vw;
   border-radius: 10px;
 }
+
 @media only screen and (max-width: 600px) {
- #gmap{
-   width:85vw;
-   height: 40vw;
- }
+  #gmap {
+    width: 85vw;
+    height: 40vw;
+  }
 }
 
-#contact-dets{
+#contact-dets {
   margin-top: 50px;
-  color:white;
+  color: white;
   list-style: none;
 }
 
-#contact-dets > li{
+#contact-dets>li {
   margin: 20px 0px;
 }
-.yellow-ctxt{
+
+.yellow-ctxt {
   color: yellow;
 }
